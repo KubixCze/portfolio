@@ -15,19 +15,11 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: "Klientsko-serverová aplikace (Bakalářská práce)",
-    description:
-      "Robustní full-stack aplikace postavená na bezpečné architektuře, s implementovaným 2FA ověřováním a komplexním modelováním hrozeb.",
+    title: "Vzdělávací webová aplikace s využitím her (Bakalářská práce)",
+    description: "",
     longDescription:
-      "Projekt se zaměřuje na vysoké zabezpečení datové komunikace. Součástí vývoje bylo vytvoření API katalogu, dvoufázového ověřování (2FA) a detailního threat modelu podle metodiky STRIDE v nástroji Threat Dragon. Backend bezpečně komunikuje přes ORM s relační databází.",
-    tags: [
-      "React",
-      "Node.js",
-      "Sequelize",
-      "PostgreSQL",
-      "2FA",
-      "STRIDE Modeling",
-    ],
+      "Webová aplikace pro vzdělávání dětí s využitím herních prvků, navržená a implementovaná jako bakalářská práce. Projekt zahrnoval kompletní vývoj full stack aplikace s důrazem na interaktivní a zábavné vzdělávací prostředí.",
+    tags: ["React + Vite", "Node.js + Express.js", "MSSQL + Sequelize"],
     githubUrl: "https://github.com/yourusername/bachelor-project",
     isFeatured: true,
   },
@@ -35,7 +27,7 @@ const projectsData: Project[] = [
     title: "Minecraft Mod Forum",
     description:
       "První full stack webová stránka vyvíjená v týmu s dynamickým obsahem.",
-    tags: ["UI/UX", "Full Stack", "MSSQL", "Node.js"],
+    tags: ["HTML", "CSS", "JavaScript", "Node.js", "MSSQL"],
     githubUrl: "https://github.com/yourusername/",
     isFeatured: false,
   },
@@ -43,7 +35,15 @@ const projectsData: Project[] = [
     title: "FedUp",
     description:
       "Návrh a implementace čistého UI/UX pro mobilní sumarizační aplikaci s důrazem na testování přístupnosti a použitelnosti.",
-    tags: ["Flutter", "Dart", "UI/UX", "Usability Testing"],
+    tags: ["Flutter", "Dart"],
+    githubUrl: "https://github.com/yourusername/",
+    isFeatured: false,
+  },
+  {
+    title: "Enhanced Cookie Clicker",
+    description:
+      "Vylepšená verze populární hry Cookie Clicker s přidanými funkcemi a optimalizacemi pro lepší herní zážitek ve webovém rozhraní. Projekt zahrnoval implementaci nových herních mechanik, progresivní systém vylepšení a power-upů.",
+    tags: ["Flutter", "Dart"],
     githubUrl: "https://github.com/yourusername/",
     isFeatured: false,
   },
